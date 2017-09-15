@@ -1,4 +1,4 @@
- mvn {
+ run {
   stages {
     stage('Generate Api') {
       steps {
