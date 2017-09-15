@@ -1,4 +1,4 @@
- run {
+ any {
   stages {
     stage('Generate Api') {
       steps {
