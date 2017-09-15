@@ -1,6 +1,5 @@
- agent any {
+ mvn {
   stages {
-    agent none
     stage('Generate Api') {
       steps {
         echo 'Hello, Maven'
