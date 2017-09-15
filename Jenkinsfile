@@ -1,7 +1,6 @@
-pipeline {
-
+ agent any {
   stages {
-    agent none 
+    agent none
     stage('Generate Api') {
       steps {
         echo 'Hello, Maven'
